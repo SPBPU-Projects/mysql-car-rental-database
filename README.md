@@ -1,12 +1,12 @@
-\# Car Rental Database System (MySQL)
+# Car Rental Database System (MySQL)
 
 
 
-This repository contains the \*\*design, implementation, and evaluation\*\* of a
+This repository contains the **design, implementation, and evaluation** of a
 
-relational database system for a \*\*car rental service\*\*, developed using \*\*MySQL\*\*.
+relational database system for a **car rental service**, developed using **MySQL**.
 
-The project represents a \*\*fully implemented and tested database\*\*, including
+The project represents a **fully implemented and tested database**, including
 
 real data, stored procedures, and analytical queries.
 
@@ -16,7 +16,7 @@ real data, stored procedures, and analytical queries.
 
 
 
-\## Project Motivation
+## Project Motivation
 
 
 
@@ -24,7 +24,7 @@ Car rental systems require structured data management for vehicles, customers,
 
 rentals, and payments.  
 
-This project focuses on translating a \*\*real-world business scenario\*\* into a
+This project focuses on translating a **real-world business scenario** into a
 
 normalized relational database with enforced integrity and queryable analytics.
 
@@ -34,7 +34,7 @@ normalized relational database with enforced integrity and queryable analytics.
 
 
 
-\## Technologies Used
+## Technologies Used
 
 
 
@@ -84,11 +84,11 @@ RentingCar/
 
 
 
-\## Database Design
+## Database Design
 
 
 
-The database was designed using \*\*Entity–Relationship (ER) modeling\*\*, followed by
+The database was designed using **Entity–Relationship (ER) modeling**, followed by
 
 conversion to a relational schema.
 
@@ -96,23 +96,23 @@ conversion to a relational schema.
 
 
 
-\### Main Entities
+### Main Entities
 
-\- Customers
+- Customers
 
-\- Vehicles
+- Vehicles
 
-\- Rentals
+- Rentals
 
-\- Payments
+- Payments
 
-\- Locations
+- Locations
 
-\- Vehicle Categories
+- Vehicle Categories
 
 
 
-All tables are \*\*normalized\*\*, and relationships are enforced using \*\*foreign keys\*\*.
+All tables are **normalized**, and relationships are enforced using **foreign keys**.
 
 
 
@@ -120,27 +120,27 @@ All tables are \*\*normalized\*\*, and relationships are enforced using \*\*fore
 
 
 
-\## Implementation Details
+## Implementation Details
 
 
 
-\### Key Features
+### Key Features
 
-\- Primary and foreign key constraints
+- Primary and foreign key constraints
 
-\- Indexes for query optimization
+- Indexes for query optimization
 
-\- Stored procedures for bulk data insertion
+- Stored procedures for bulk data insertion
 
-\- Realistic dataset for testing scalability
+- Realistic dataset for testing scalability
 
-\- Analytical queries for business insights
-
-
+- Analytical queries for business insights
 
 
 
-\### Example Table Definition
+
+
+### Example Table Definition
 
 
 
@@ -164,7 +164,7 @@ CREATE TABLE Customer (
 
 
 
-\### Stored Procedures
+### Stored Procedures
 
 
 
@@ -174,7 +174,7 @@ Stored procedures are used to automate data generation and insertion.
 
 
 
-\### Example Procedure
+### Example Procedure
 
 
 
@@ -214,7 +214,7 @@ DELIMITER ;
 
 
 
-\### Analytical Queries
+### Analytical Queries
 
 
 
@@ -258,11 +258,11 @@ Query results are stored in the `Results/` directory.
 
 
 
-\## How to Run the Project
+## How to Run the Project
 
 
 
-\### Import Database
+### Import Database
 
 
 
@@ -290,7 +290,7 @@ After import, the database is immediately ready for querying.
 
 
 
-\## Results and Evaluation
+## Results and Evaluation
 
 
 
@@ -315,18 +315,25 @@ After import, the database is immediately ready for querying.
 Detailed analysis and screenshots are provided in Report.pdf.
 
 
+## Diagrams
+
+### ER Diagram
+![ER Diagram](Diagrams/ER.png)
+
+### Relational Schema / Structure
+![Schema](Diagrams/Structure.png)
 
 
 
 
 
-\## Academic Context
+## Academic Context
 
 
 
-This project was developed as part of coursework in \*\*Database Systems\*\*
+This project was developed as part of coursework in **Database Systems**
 
-at \*\*Saint Petersburg Polytechnic University (SPbPU)\*\*.
+at **Saint Petersburg Polytechnic University (SPbPU)**.
 
 
 
@@ -334,11 +341,11 @@ at \*\*Saint Petersburg Polytechnic University (SPbPU)\*\*.
 
 
 
-\## Author
+## Author
 
 
 
-\*\*Matin Dastanboo\*\*  
+**Matin Dastanboo**  
 
 MSc Student – Artificial Intelligence \& Machine Learning  
 
