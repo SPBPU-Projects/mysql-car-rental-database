@@ -1,5 +1,9 @@
 # Car Rental Database System (MySQL)
 
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![SQL](https://img.shields.io/badge/SQL-Queries-lightgrey)
+![Git LFS](https://img.shields.io/badge/Git-LFS-orange)
+![Academic Project](https://img.shields.io/badge/Type-Academic-success)
 
 
 This repository contains the **design, implementation, and evaluation** of a
@@ -10,9 +14,25 @@ The project represents a **fully implemented and tested database**, including
 
 real data, stored procedures, and analytical queries.
 
-
-
 ---
+
+## Preview
+
+![Database Preview](Assets/4.9.png)
+
+
+
+
+## Table of Contents
+- [Project Motivation](#project-motivation)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Database Design](#database-design)
+- [Implementation Details](#implementation-details)
+- [How to Run the Project](#how-to-run-the-project)
+- [Results and Evaluation](#results-and-evaluation)
+- [Academic Context](#academic-context)
+
 
 
 
@@ -324,6 +344,14 @@ Detailed analysis and screenshots are provided in Report.pdf.
 ![Schema](Diagrams/Structure.png)
 
 
+
+## What This Project Demonstrates
+
+- Practical relational database design (not theoretical only)
+- ER modeling to normalized relational schema
+- Use of constraints and indexing for data integrity and performance
+- Handling of large datasets in MySQL
+- Writing analytical SQL queries for business insights
 
 
 
